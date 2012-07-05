@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		101E675A15A511E700FFF744 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101E675915A511E700FFF744 /* UIKit.framework */; };
+		101E675C15A511E700FFF744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101E675B15A511E700FFF744 /* Foundation.framework */; };
+		101E675E15A511E700FFF744 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101E675D15A511E700FFF744 /* CoreGraphics.framework */; };
+		101E676415A511E700FFF744 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 101E676215A511E700FFF744 /* InfoPlist.strings */; };
+		101E676615A511E700FFF744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E676515A511E700FFF744 /* main.m */; };
+		101E676A15A511E700FFF744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E676915A511E700FFF744 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		101E675515A511E700FFF744 /* PitchDetectorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchDetectorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		101E675915A511E700FFF744 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		101E675B15A511E700FFF744 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		101E675D15A511E700FFF744 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		101E676115A511E700FFF744 /* PitchDetectorExample-Info.plist */ = {isa = PBXFileReference; path = "PitchDetectorExample-Info.plist"; sourceTree = "<group>"; };
+		101E676315A511E700FFF744 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		101E676515A511E700FFF744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		101E676715A511E700FFF744 /* PitchDetectorExample-Prefix.pch */ = {isa = PBXFileReference; path = "PitchDetectorExample-Prefix.pch"; sourceTree = "<group>"; };
+		101E676815A511E700FFF744 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		101E676915A511E700FFF744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		101E675215A511E700FFF744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101E675A15A511E700FFF744 /* UIKit.framework in Frameworks */,
+				101E675C15A511E700FFF744 /* Foundation.framework in Frameworks */,
+				101E675E15A511E700FFF744 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101E674A15A511E700FFF744 = {
+			isa = PBXGroup;
+			children = (
+				101E675F15A511E700FFF744 /* PitchDetectorExample */,
+				101E675815A511E700FFF744 /* Frameworks */,
+				101E675615A511E700FFF744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		101E675615A511E700FFF744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				101E675515A511E700FFF744 /* PitchDetectorExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		101E675815A511E700FFF744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				101E675915A511E700FFF744 /* UIKit.framework */,
+				101E675B15A511E700FFF744 /* Foundation.framework */,
+				101E675D15A511E700FFF744 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		101E675F15A511E700FFF744 /* PitchDetectorExample */ = {
+			isa = PBXGroup;
+			children = (
+				101E676815A511E700FFF744 /* AppDelegate.h */,
+				101E676915A511E700FFF744 /* AppDelegate.m */,
+				101E676015A511E700FFF744 /* Supporting Files */,
+			);
+			path = PitchDetectorExample;
+			sourceTree = "<group>";
+		};
+		101E676015A511E700FFF744 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				101E676115A511E700FFF744 /* PitchDetectorExample-Info.plist */,
+				101E676215A511E700FFF744 /* InfoPlist.strings */,
+				101E676515A511E700FFF744 /* main.m */,
+				101E676715A511E700FFF744 /* PitchDetectorExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		101E675415A511E700FFF744 /* PitchDetectorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101E676D15A511E700FFF744 /* Build configuration list for PBXNativeTarget "PitchDetectorExample" */;
+			buildPhases = (
+				101E675115A511E700FFF744 /* Sources */,
+				101E675215A511E700FFF744 /* Frameworks */,
+				101E675315A511E700FFF744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PitchDetectorExample;
+			productName = PitchDetectorExample;
+			productReference = 101E675515A511E700FFF744 /* PitchDetectorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		101E674C15A511E700FFF744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "New York University";
+			};
+			buildConfigurationList = 101E674F15A511E700FFF744 /* Build configuration list for PBXProject "PitchDetectorExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 101E674A15A511E700FFF744;
+			productRefGroup = 101E675615A511E700FFF744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				101E675415A511E700FFF744 /* PitchDetectorExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		101E675315A511E700FFF744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101E676415A511E700FFF744 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		101E675115A511E700FFF744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101E676615A511E700FFF744 /* main.m in Sources */,
+				101E676A15A511E700FFF744 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		101E676215A511E700FFF744 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				101E676315A511E700FFF744 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		101E676B15A511E700FFF744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		101E676C15A511E700FFF744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		101E676E15A511E700FFF744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PitchDetectorExample/PitchDetectorExample-Prefix.pch";
+				INFOPLIST_FILE = "PitchDetectorExample/PitchDetectorExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		101E676F15A511E700FFF744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PitchDetectorExample/PitchDetectorExample-Prefix.pch";
+				INFOPLIST_FILE = "PitchDetectorExample/PitchDetectorExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		101E674F15A511E700FFF744 /* Build configuration list for PBXProject "PitchDetectorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101E676B15A511E700FFF744 /* Debug */,
+				101E676C15A511E700FFF744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		101E676D15A511E700FFF744 /* Build configuration list for PBXNativeTarget "PitchDetectorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101E676E15A511E700FFF744 /* Debug */,
+				101E676F15A511E700FFF744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 101E674C15A511E700FFF744 /* Project object */;
+}
