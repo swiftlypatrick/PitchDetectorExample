@@ -13,12 +13,12 @@
 		101E676415A511E700FFF744 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 101E676215A511E700FFF744 /* InfoPlist.strings */; };
 		101E676615A511E700FFF744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E676515A511E700FFF744 /* main.m */; };
 		101E676A15A511E700FFF744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E676915A511E700FFF744 /* AppDelegate.m */; };
-		101E677815A511FF00FFF744 /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E677115A511FF00FFF744 /* AudioController.m */; };
-		101E677915A511FF00FFF744 /* FreqViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E677315A511FF00FFF744 /* FreqViewController.m */; };
-		101E677A15A511FF00FFF744 /* PitchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E677515A511FF00FFF744 /* PitchDetector.m */; };
-		101E677B15A511FF00FFF744 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 101E677615A511FF00FFF744 /* TPCircularBuffer.c */; };
 		101E677E15A512A800FFF744 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101E677C15A512A800FFF744 /* Accelerate.framework */; };
 		101E677F15A512A800FFF744 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101E677D15A512A800FFF744 /* AudioToolbox.framework */; };
+		101E678815A5163300FFF744 /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E678115A5163300FFF744 /* AudioController.m */; };
+		101E678915A5163300FFF744 /* FreqViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E678315A5163300FFF744 /* FreqViewController.m */; };
+		101E678A15A5163300FFF744 /* PitchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E678515A5163300FFF744 /* PitchDetector.m */; };
+		101E678B15A5163300FFF744 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 101E678615A5163300FFF744 /* TPCircularBuffer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,16 +32,16 @@
 		101E676715A511E700FFF744 /* PitchDetectorExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PitchDetectorExample-Prefix.pch"; sourceTree = "<group>"; };
 		101E676815A511E700FFF744 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		101E676915A511E700FFF744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		101E677015A511FF00FFF744 /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioController.h; path = ../AudioController.h; sourceTree = "<group>"; };
-		101E677115A511FF00FFF744 /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioController.m; path = ../AudioController.m; sourceTree = "<group>"; };
-		101E677215A511FF00FFF744 /* FreqViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreqViewController.h; path = ../FreqViewController.h; sourceTree = "<group>"; };
-		101E677315A511FF00FFF744 /* FreqViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FreqViewController.m; path = ../FreqViewController.m; sourceTree = "<group>"; };
-		101E677415A511FF00FFF744 /* PitchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PitchDetector.h; path = ../PitchDetector.h; sourceTree = "<group>"; };
-		101E677515A511FF00FFF744 /* PitchDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PitchDetector.m; path = ../PitchDetector.m; sourceTree = "<group>"; };
-		101E677615A511FF00FFF744 /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = TPCircularBuffer.c; path = ../TPCircularBuffer.c; sourceTree = "<group>"; };
-		101E677715A511FF00FFF744 /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPCircularBuffer.h; path = ../TPCircularBuffer.h; sourceTree = "<group>"; };
 		101E677C15A512A800FFF744 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		101E677D15A512A800FFF744 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		101E678015A5163300FFF744 /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
+		101E678115A5163300FFF744 /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
+		101E678215A5163300FFF744 /* FreqViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreqViewController.h; sourceTree = "<group>"; };
+		101E678315A5163300FFF744 /* FreqViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreqViewController.m; sourceTree = "<group>"; };
+		101E678415A5163300FFF744 /* PitchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PitchDetector.h; sourceTree = "<group>"; };
+		101E678515A5163300FFF744 /* PitchDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PitchDetector.m; sourceTree = "<group>"; };
+		101E678615A5163300FFF744 /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
+		101E678715A5163300FFF744 /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,16 +92,16 @@
 		101E675F15A511E700FFF744 /* PitchDetectorExample */ = {
 			isa = PBXGroup;
 			children = (
+				101E678015A5163300FFF744 /* AudioController.h */,
+				101E678115A5163300FFF744 /* AudioController.m */,
+				101E678215A5163300FFF744 /* FreqViewController.h */,
+				101E678315A5163300FFF744 /* FreqViewController.m */,
+				101E678415A5163300FFF744 /* PitchDetector.h */,
+				101E678515A5163300FFF744 /* PitchDetector.m */,
+				101E678615A5163300FFF744 /* TPCircularBuffer.c */,
+				101E678715A5163300FFF744 /* TPCircularBuffer.h */,
 				101E676815A511E700FFF744 /* AppDelegate.h */,
 				101E676915A511E700FFF744 /* AppDelegate.m */,
-				101E677015A511FF00FFF744 /* AudioController.h */,
-				101E677115A511FF00FFF744 /* AudioController.m */,
-				101E677215A511FF00FFF744 /* FreqViewController.h */,
-				101E677315A511FF00FFF744 /* FreqViewController.m */,
-				101E677415A511FF00FFF744 /* PitchDetector.h */,
-				101E677515A511FF00FFF744 /* PitchDetector.m */,
-				101E677615A511FF00FFF744 /* TPCircularBuffer.c */,
-				101E677715A511FF00FFF744 /* TPCircularBuffer.h */,
 				101E676015A511E700FFF744 /* Supporting Files */,
 			);
 			path = PitchDetectorExample;
@@ -182,10 +182,10 @@
 			files = (
 				101E676615A511E700FFF744 /* main.m in Sources */,
 				101E676A15A511E700FFF744 /* AppDelegate.m in Sources */,
-				101E677815A511FF00FFF744 /* AudioController.m in Sources */,
-				101E677915A511FF00FFF744 /* FreqViewController.m in Sources */,
-				101E677A15A511FF00FFF744 /* PitchDetector.m in Sources */,
-				101E677B15A511FF00FFF744 /* TPCircularBuffer.c in Sources */,
+				101E678815A5163300FFF744 /* AudioController.m in Sources */,
+				101E678915A5163300FFF744 /* FreqViewController.m in Sources */,
+				101E678A15A5163300FFF744 /* PitchDetector.m in Sources */,
+				101E678B15A5163300FFF744 /* TPCircularBuffer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
