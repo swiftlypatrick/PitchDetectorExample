@@ -59,7 +59,7 @@
     sampleBuffer = newBuffer;
     samplesInSampleBuffer = newLength;
     
-    if(samplesInSampleBuffer>(self.sampleRate/self.lowBoundFrequency)) {
+    if(samplesInSampleBuffer>bufferLength) {
         if(!self.running) {
             [self performSelectorInBackground:@selector(performWithNumFrames:) withObject:[NSNumber numberWithInt:newLength]];
             self.running = YES;
@@ -75,7 +75,7 @@
 
 -(void) performWithNumFrames: (NSNumber*) numFrames;
 {
-    int n = numFrames.intValue; 
+    int n = MIN(bufferLength, numFrames.intValue);
     float freq = 0;
 
     SInt16 *samples = sampleBuffer;
@@ -94,8 +94,7 @@
         result[i] = sum/normalize;
     }
     
-    
-    for(int i = 0; i<n-8; i++) {
+    for(int i = 1; i < n - 1; i++) {
         if(result[i]<0) {
             i+=2; // no peaks below 0, skip forward at a faster rate
         } else {
@@ -125,11 +124,13 @@
         }
     }
     
-    freq =self.sampleRate/interp(result[returnIndex-1], result[returnIndex], result[returnIndex+1], returnIndex);
-    if(freq >= 27.5 && freq <= 4500.0) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [delegate updatedPitch:freq];
-        }); 
+    if (returnIndex > 0) {
+        freq =self.sampleRate/interp(result[returnIndex-1], result[returnIndex], result[returnIndex+1], returnIndex);
+        if(freq >= self.lowBoundFrequency && freq <= self.hiBoundFrequency) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [delegate updatedPitch:freq];
+            }); 
+        }
     }
     self.running = NO;
 }
