@@ -94,8 +94,7 @@
         result[i] = sum/normalize;
     }
     
-    
-    for(int i = 0; i<n-8; i++) {
+    for(int i = 1; i < n - 1; i++) {
         if(result[i]<0) {
             i+=2; // no peaks below 0, skip forward at a faster rate
         } else {
