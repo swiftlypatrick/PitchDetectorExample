@@ -18,7 +18,6 @@
 		101E678815A5163300FFF744 /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E678115A5163300FFF744 /* AudioController.m */; };
 		101E678915A5163300FFF744 /* FreqViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E678315A5163300FFF744 /* FreqViewController.m */; };
 		101E678A15A5163300FFF744 /* PitchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E678515A5163300FFF744 /* PitchDetector.m */; };
-		101E678B15A5163300FFF744 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 101E678615A5163300FFF744 /* TPCircularBuffer.c */; };
 		101E678D15A5177E00FFF744 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 101E678C15A5177E00FFF744 /* README.txt */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +40,6 @@
 		101E678315A5163300FFF744 /* FreqViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreqViewController.m; sourceTree = "<group>"; };
 		101E678415A5163300FFF744 /* PitchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PitchDetector.h; sourceTree = "<group>"; };
 		101E678515A5163300FFF744 /* PitchDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PitchDetector.m; sourceTree = "<group>"; };
-		101E678615A5163300FFF744 /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
-		101E678715A5163300FFF744 /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
 		101E678C15A5177E00FFF744 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = ../README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,8 +97,6 @@
 				101E678315A5163300FFF744 /* FreqViewController.m */,
 				101E678415A5163300FFF744 /* PitchDetector.h */,
 				101E678515A5163300FFF744 /* PitchDetector.m */,
-				101E678615A5163300FFF744 /* TPCircularBuffer.c */,
-				101E678715A5163300FFF744 /* TPCircularBuffer.h */,
 				101E676815A511E700FFF744 /* AppDelegate.h */,
 				101E676915A511E700FFF744 /* AppDelegate.m */,
 				101E676015A511E700FFF744 /* Supporting Files */,
@@ -189,7 +184,6 @@
 				101E678815A5163300FFF744 /* AudioController.m in Sources */,
 				101E678915A5163300FFF744 /* FreqViewController.m in Sources */,
 				101E678A15A5163300FFF744 /* PitchDetector.m in Sources */,
-				101E678B15A5163300FFF744 /* TPCircularBuffer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +287,7 @@
 				101E676F15A511E700FFF744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
