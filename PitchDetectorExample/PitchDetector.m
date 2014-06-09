@@ -59,7 +59,7 @@
     sampleBuffer = newBuffer;
     samplesInSampleBuffer = newLength;
     
-    if(samplesInSampleBuffer>(self.sampleRate/self.lowBoundFrequency)) {
+    if(samplesInSampleBuffer>bufferLength) {
         if(!self.running) {
             [self performSelectorInBackground:@selector(performWithNumFrames:) withObject:[NSNumber numberWithInt:newLength]];
             self.running = YES;
