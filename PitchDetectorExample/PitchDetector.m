@@ -75,7 +75,7 @@
 
 -(void) performWithNumFrames: (NSNumber*) numFrames;
 {
-    int n = numFrames.intValue; 
+    int n = MIN(bufferLength, numFrames.intValue);
     float freq = 0;
 
     SInt16 *samples = sampleBuffer;
